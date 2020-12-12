@@ -32,12 +32,18 @@ hr {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
 }
 
 .list-non-bullets {
@@ -117,7 +123,46 @@ hr {
 .footer .links {
   color: white;
 }
+.footer .footer-header {
+  text-align: center;
+  font-weight: lighter;
+  font-size: large;
+  padding: 0rem 0rem 1rem 0rem;
+}
+/* .footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+} */
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #121414;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #7d159c;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.showcase-list {
+  padding: 2rem;
 }
